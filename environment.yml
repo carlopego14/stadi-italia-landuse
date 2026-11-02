@@ -1,0 +1,16 @@
+name: stadi-landuse
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - geopandas>=0.14
+  - osmnx>=1.9
+  - shapely>=2.0
+  - pyproj>=3.6
+  - fiona
+  - pandas
+  - requests
+  - tqdm
+  - pip
+  - pip:
+      - keplergl==0.3.2

@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+data/raw/*.geojson
+data/processed/*.geojson
+data/processed/*.csv
+data/output/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/output/.gitkeep

@@ -1,0 +1,14 @@
+# Alternativa a environment.yml per chi preferisce venv + pip
+# NB: geopandas/shapely/pyproj hanno dipendenze binarie (GDAL, GEOS, PROJ);
+# su Windows/macOS conda-forge è più affidabile. Su Linux con GDAL già
+# installato via apt (gdal-bin, libgdal-dev) pip funziona bene.
+
+geopandas>=0.14
+osmnx>=1.9
+shapely>=2.0
+pyproj>=3.6
+fiona
+pandas
+requests
+tqdm
+keplergl==0.3.2
